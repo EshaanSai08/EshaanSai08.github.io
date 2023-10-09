@@ -1,0 +1,295 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://www.rd.com/wp-content/uploads/2022/08/GettyImages-463142849-e1660855980200.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bigtext {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 90px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+.logo{
+  width: 240px;
+  cursor: pointer;
+}
+.nav-links li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: white;
+}
+.Register-btn{
+background: white;
+color: #000;
+padding: 8px 20px;
+border-radius: 20px;
+text-decoration: none;
+font-size: 14px;
+}
+.container{
+  padding: 0 7%;
+  
+  position: center;
+}
+
+
+.header h1{
+  font-size: 4vw;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+.search-btn{
+background: #5E17EB;
+color: white;
+padding: 10px 50px;
+border-radius: 20px;
+text-decoration: none;
+font-size: 14px;
+display: inline-block;
+margin-left: 575px;
+margin-top: 20px;
+}
+
+/*--Excl--*/
+.sub-title{
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: #333;
+}
+.exclusives{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.exclusives div img{
+  width: 100%;
+  border-radius: 40px;
+  height: 95%;
+}
+.exclusives div{
+  position: relative;
+}
+.exclusives div span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.purple-box {
+  background-color: #5E17EB; /* Purple color using hex code */
+  padding: 10px; /* Adjust the padding as needed */
+  color: white; /* Text color */
+  border-radius: 10px; /* Rounded corners for the box */
+}
+/* styles.css */
+/* Apply 'Kanit' font to all questionnaire text */
+.question label,
+.question input[type="text"],
+.question input[type="radio"],
+.question textarea {
+    font-family: 'Kanit', sans-serif;
+}
+
+.sub-title {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Style for the recommendation text */
+#recommendation {
+    color: blue;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style for the blue button */
+.blue-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for the submit button container */
+.submit-button {
+    text-align: center;
+}
+
+/* Center-align the logo */
+.logo {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+.question {
+  margin-bottom: 20px;
+}
+.blue-button {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Style for the submit button container */
+.submit-button {
+  text-align: center;
+}
+.blue-button:hover {
+  transform: scale(1.1); /* Scale the button by 110% on hover */
+}
+/* The Modal */
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  text-align: center; /* Center-align text within the modal content */
+  margin: 0 auto;
+  display: block;
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Center the Gas Expedition modal in the middle of the screen */
+#myModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+/* Add a max-width and center the Gas Expedition modal content */
+#Excl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px; /* Adjust the max-width as needed */
+  background-color: white; /* Change the background color if needed */
+  border-radius: 10px; /* Add rounded corners to the modal content */
+  padding: 30px; /* Adjust the padding to make the modal bigger */
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 1); /* Add shadow to the modal content */
+}
+
+/* Adjust the Gas Expedition modal content as needed */
+.Gas-Giants {
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.Gas-Giants:hover {
+  transform: translateY(-10px);
+}
+
+.Gas-Giants img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Ex-d {
+  text-align: center;
+  font-size: 20px;
+}
+/* Add padding between text and image */
+.package-info {
+  padding: 20px;
+  text-align: center;
+}
+/* Add margin between text and image */
+.recommend-text {
+  margin-bottom: 20px;
+}
+
+/* Style for the "Learn More" button */
+.learn-more-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Apply the hover effect */
+.learn-more-button:hover {
+  transform: scale(1.1); /* Scale the button by 110% on hover */
+}
+.package-info {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add margin between text and image */
+.recommend-text {
+  margin-bottom: 20px;
+}
+
+/* Style for the "Learn More" button */
+.learn-more-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-top: 10px;
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Apply the hover effect */
+.learn-more-button:hover {
+  transform: scale(1.1); /* Scale the button by 110% on hover */
+}
+
+

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="PlanYourTrip.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/17d1a22496.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="logo.png" class="logo">
+        </nav>
+        <div class="container">
+            <h1 id="bigtext" style="color: #5E17EB;">Find Your Place In The Stars</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="exclusives">
+            <span>
+                <h3></h3>
+            </span>
+            <div>
+                <span>
+                    <p></p>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Radio buttons for survey questions -->
+    <div class="container">
+        <h2 class="sub-title" style="text-align: center;">What Expedition Awaits You?</h2>
+        <div class="radio-questions">
+            <!-- Add the form element to wrap all the survey questions and submit button -->
+            <form id="questionnaire-form">
+                <!-- Your questions here -->
+                <!-- Add margin-bottom to create a gap between questions -->
+                <!-- Question 1 -->
+                <div class="question">
+                    <label for="q1">1. Have you ever traveled with us before?</label>
+                    <input type="radio" name="q1" id="q1-yes" value="Yes" required>
+                    <label for="q1-yes">Yes</label>
+                    <input type="radio" name="q1" id="q1-no" value="No" required>
+                    <label for="q1-no">No</label>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="question">
+                    <label for="q3">2. Are you interested in sightseeing or planetary exploration?</label>
+                    <input type="radio" name="q3" id="q3-sightseeing" value="Sightseeing" required>
+                    <label for="q3-sightseeing">Sightseeing</label>
+                    <input type="radio" name="q3" id="q3-planetary-exploration" value="Planetary Exploration" required>
+                    <label for="q3-planetary-exploration">Planetary Exploration</label>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="question">
+                    <label for="q4">3. Do you prefer hotter or colder climates?</label>
+                    <input type="radio" name="q4" id="q4-hot" value="Hot" required>
+                    <label for="q4-hot">Hot</label>
+                    <input type="radio" name="q4" id="q4-cold" value="Cold" required>
+                    <label for="q4-cold">Cold</label>
+                </div>
+
+                <!-- Question 4 -->
+                <div class="question">
+                    <label for="q5">4. Are you traveling with family?</label>
+                    <input type="radio" name="q5" id="q5-yes" value="Yes" required>
+                    <label for="q5-yes">Yes</label>
+                    <input type="radio" name="q5" id="q5-no" value="No" required>
+                    <label for="q5-no">No</label>
+                </div>
+
+                <!-- Question 5 -->
+                <div class="question">
+                    <label for="q6">5. What's your budget?</label>
+                    <input type="radio" name="q6" id="q6-budget-low" value="Low" required>
+                    <label for="q6-budget-low">Low</label>
+                    <input type="radio" name="q6" id="q6-budget-medium" value="Medium" required>
+                    <label for="q6-budget-medium">Medium</label>
+                    <input type="radio" name="q6" id="q6-budget-high" value="High" required>
+                    <label for="q6-budget-high">High</label>
+                </div>
+
+                <!-- Question 6 -->
+                <div class="question">
+                    <label for="q7">6. Are there any specific planets or locations you would like to visit?</label>
+                    <input type="radio" name="q7" id="q7-yes" value="Yes" required>
+                    <label for="q7-yes">Yes</label>
+                    <input type="radio" name="q7" id="q7-no" value="No" required>
+                    <label for="q7-no">No</label>
+                </div>
+
+                <!-- Question 7 -->
+                <div class="question">
+                    <label for="q8">7. Do you have any dietary restrictions? If so, please explain below:</label>
+                    <input type="radio" name="q8" id="q8-yes" value="Yes" required>
+                    <label for="q8-yes">Yes</label>
+                    <input type="radio" name="q8" id="q8-no" value="No" required>
+                    <label for="q8-no">No</label>
+                    <br>
+                    <textarea name="q8-explanation" id="q8-explanation" rows="3" cols="50" placeholder="Explanation"></textarea>
+                </div>
+
+                <!-- Question 8 -->
+                <div class="question">
+                    <label for="q9">8. Do you have any medical conditions or allergies that we should be aware of? If so, please explain below:</label>
+                    <input type="radio" name="q9" id="q9-yes" value="Yes" required>
+                    <label for="q9-yes">Yes</label>
+                    <input type="radio" name="q9" id="q9-no" value="No" required>
+                    <label for="q9-no">No</label>
+                    <br>
+                    <textarea name="q9-explanation" id="q9-explanation" rows="3" cols="50" placeholder="Explanation"></textarea>
+                </div>
+
+                <!-- Question 9 -->
+                <div class="question">
+                    <label for="q10">9. Do you have any mobility restrictions or special needs? If so, please explain below:</label>
+                    <input type="radio" name="q10" id="q10-yes" value="Yes" required>
+                    <label for="q10-yes">Yes</label>
+                    <input type="radio" name="q10" id="q10-no" value="No" required>
+                    <label for="q10-no">No</label>
+                    <br>
+                    <textarea name="q10-explanation" id="q10-explanation" rows="3" cols="50" placeholder="Explanation"></textarea>
+                </div>
+
+                <!-- Style for the blue button -->
+                <style>
+                    .blue-button {
+                        background-color: #5E17EB;
+                        color: white;
+                        padding: 10px 20px;
+                        border: none;
+                        cursor: pointer;
+                        border-radius: 5px;
+                    }
+                </style>
+
+                <!-- Submit Button -->
+                <div class="submit-button">
+                    <input type="submit" value="Submit" class="blue-button">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Recommendation Text -->
+    <p id="recommendation"></p>
+
+<!-- The Modal for Gas Giant Package -->
+<div id="myModal" class="modal" style="display: none;">
+    <span class="close" id="modal-close">&times;</span>
+    <div id="Excl" class="Gas-Giants">
+        <p class="recommend-text">We recommend the Gas Giant Package.</p>
+        <img src="https://cdn.mos.cms.futurecdn.net/oKX3xtKyb7ht4zW9w24gRG-1200-80.jpg" alt="Gas Giant">
+        <div class="package-info">
+            <p>Explore the mysteries of gas giants in our special package. Witness stunning celestial phenomena and immerse yourself in the beauty of the cosmos.</p>
+            <a href="GasGiantEx.html" class="learn-more-button">Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- The Modal for Exclusive Package -->
+<div id="exclusiveModal" class="modal" style="display: none;">
+    <span class="close" id="modal-close">&times;</span>
+    <div id="Excl" class="Gas-Giants">
+        <p class="recommend-text">We recommend the Exclusive Package.</p>
+        <img src="https://images.livemint.com/img/2019/11/20/1600x900/76587ad4-bd20-11e9-be68-67bc3b8e042c_1565936136357_1574252881555.jpg" alt="Exclusive Package">
+        <div class="package-info">
+            <p>Indulge in the epitome of cosmic luxury with our Exclusive Package! Discover the wonders of the cosmos with our Exclusive Package. Witness breathtaking celestial events and explore the mysteries of the universe.</p>
+            <a href="ExclusiveEx.html" class="learn-more-button">Learn More</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- The Modal for General Package -->
+<div id="generalModal" class="modal" style="display: none;">
+    <span class="close" id="modal-close">&times;</span>
+    <div id="Excl" class="Gas-Giants">
+        <p class="recommend-text">We recommend the General Package.</p>
+        <img src="https://cdn.mos.cms.futurecdn.net/GY9JBbrzsGsz2psUv6pgdV.jpg" alt="General Package">
+        <div class="package-info">
+            <p>"Embark on an incredible cosmic journey with our General Package, an affordable option that promises a well-rounded and memorable experience of the Solar System. Prepare for an adventure of a lifetime!"</p>
+            <button class="learn-more-button" onclick="window.location.href='/GeneralEx.html'">Learn More</button>
+        </div>
+    </div>
+</div>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const form = document.getElementById("questionnaire-form");
+
+            // Get the modals and close buttons
+            const modal = document.getElementById("myModal");
+            const modalClose = document.getElementById("modal-close"); // Added for the close button
+            const modalImage = document.getElementById("modal-image"); // Added for the image
+            const exclusiveModal = document.getElementById("exclusiveModal");
+            const generalModal = document.getElementById("generalModal");
+            const closeModal = document.getElementsByClassName("close");
+
+            // Flag to track if a recommendation has been generated
+            let recommendationGenerated = false;
+
+            form.addEventListener("submit", function (event) {
+                event.preventDefault(); // Prevent form submission for now
+
+                // Check user's selections and display recommendation
+                const q2Sightseeing = document.querySelector("#q3-sightseeing");
+                const q2Planetary = document.querySelector("#q3-planetary-exploration");
+                const q3Cold = document.querySelector("#q4-cold");
+                const q3Hot = document.querySelector("#q4-hot");
+                const q4Yes = document.querySelector("#q5-yes");
+                const q4No = document.querySelector("#q5-no");
+                const q6MediumOrLow = document.querySelectorAll("input[name='q6'][value='Medium'], input[name='q6'][value='Low']");
+                const q6High = document.querySelector("#q6-budget-high");
+
+                if (q2Sightseeing.checked && q3Cold.checked && q4Yes.checked && (q6MediumOrLow[0].checked || q6MediumOrLow[1].checked)) {
+                    displayModal(modal); // Show Gas Giant Package modal
+                } else if (q2Planetary.checked && (q3Cold.checked || q3Hot.checked) && q4No.checked && (q6MediumOrLow[0].checked || q6MediumOrLow[1].checked)) {
+                    displayModal(generalModal); // Show General Package modal
+                } else if (q2Planetary.checked && q3Cold.checked && q4No.checked && q6High.checked) {
+                    displayModal(exclusiveModal); // Show Exclusive Package modal
+                } else {
+                    displayModal(generalModal); // Default: Show General Package modal
+                }
+            });
+
+            // Function to display a modal and set the flag
+            function displayModal(modalElement) {
+                // Display the modal with the recommendation text only if it hasn't been generated before
+                if (!recommendationGenerated) {
+                    modalElement.style.display = "block";
+                    modalImage.style.display = "block"; // Show the image
+                    recommendationGenerated = true; // Set the flag to true
+                }
+            }
+
+            // Close the modals when the close buttons are clicked
+            modalClose.addEventListener("click", function () {
+                modal.style.display = "none";
+                exclusiveModal.style.display = "none";
+                generalModal.style.display = "none";
+                modalImage.style.display = "none"; // Hide the image when the modal is closed
+            });
+
+            // Close the modals when clicking outside the modal content
+            window.addEventListener("click", function (event) {
+                if (event.target == modal || event.target == exclusiveModal || event.target == generalModal) {
+                    modal.style.display = "none";
+                    exclusiveModal.style.display = "none";
+                    generalModal.style.display = "none";
+                    modalImage.style.display = "none"; // Hide the image when the modal is closed
+                }
+            });
+        });
+    </script>
+</body>
+</html>

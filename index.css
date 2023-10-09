@@ -1,0 +1,377 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kanit', sans-serif;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://images2.alphacoders.com/132/thumb-1920-1329016.png);
+  background-position: center;
+  background-size: cover;
+}
+#header-txt{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 90px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+.logo{
+  width: 400px;
+  cursor: pointer;
+  margin-left:auto;
+  margin-right:auto;
+}
+.nav-links li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: white;
+}
+.Register-btn{
+background: white;
+color: #000;
+padding: 8px 20px;
+border-radius: 20px;
+text-decoration: none;
+font-size: 14px;
+}
+.container{
+  padding: 0 7%;
+  position: center;
+}
+
+.header h1{
+  font-size: 4vw;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+.header p{
+  font-size: 20px;
+  font-weight: 500;
+  color: darkblue;
+  text-align: center;
+ 
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.search-btn {
+  background: #5E17EB;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  left: 50%;
+  bottom: 120px; /* Increase the distance from the text */
+  
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.search-btn1 {
+  background: #5E17EB;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: transform 0.5s;
+  display: inline-block;
+  margin-top: 20px; /* Adjust the value to control the distance from the text */
+}
+
+
+
+/*--Description--*/
+.parallax {
+  /* The image used */
+  background-image: url(https://wallpapersmug.com/download/3840x2160/2fa40a/starry-sky-night-mountians-5k.jpg);
+
+  /* Set a specific height */
+  min-height: 500px;
+  padding-top: 60px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background-size: cover;
+  padding-bottom: 80px;
+}
+.description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.d-list .fa-solid{
+  font-size: 40px;
+  padding-top: 5%;
+  color: #5E17EB;
+}
+
+.description h1 {
+  font-size: 80px;
+  padding: 2%;
+  margin: 0 auto; /* Center-align the heading */
+  max-width: 100%; /* Ensure it doesn't move when zooming in or out */
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
+.description{
+  padding-top: 40px;
+  background-color: #000;
+}
+.d-list .c-1{
+  text-align: center;
+  width: 300px;
+  padding: 40px 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0px rgba(250,250,250);
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.d-list .c-1 p{
+  padding-top: 40px;
+}
+
+.d-list .c-1:hover{
+  transform: translateY(-10px);
+}
+
+.TwoHeader h1{
+text-align: center;
+padding-top: 100px;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 80px;
+color: white;
+}
+.TwoHeader p{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  }
+
+/*--Excl--*/
+
+.back-col{
+  background-image: linear-gradient(black, #5E17EB);
+}
+
+#Excl{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.Exclusive{
+  margin-left: 55px;
+  background-image: linear-gradient(silver, white);
+  text-align: center;
+  width: 400px;
+  padding: 40px 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,1);
+  cursor: pointer;
+  border-radius: 30px;
+  transition: transform 0.5s;
+}
+.Exclusive:hover{
+  transform: translateY(-10px);
+}
+.Exclusive img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+
+
+.Gas-Giants{
+  background-image: linear-gradient(#6097f0, silver);
+  text-align: center;
+  width: 400px;
+  padding: 40px 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,1);
+  cursor: pointer;
+  border-radius: 30px;
+  transition: transform 0.5s;
+}
+.Gas-Giants:hover{
+  transform: translateY(-10px);
+}
+.Gas-Giants img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+
+
+.General{
+  background-image: linear-gradient(rgba(233, 0, 0, 0.591), rgba(255, 1, 1, 0.121));
+  margin-right: 55px;
+  background-color: silver;
+  text-align: center;
+  width: 400px;
+  padding: 40px 20px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,1);
+  cursor: pointer;
+  border-radius: 30px;
+  transition: transform 0.5s;
+}
+.General:hover{
+  transform: translateY(-10px);
+}
+.General img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+
+
+.Ex-d{
+  text-align: center;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 10%;
+  font-size: 20px;
+}
+
+.Ex-d .Ex-btn{
+  margin: 30px;
+  display: inline-block;
+  background: black;
+  padding: 7%;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 100;
+  color: whitesmoke;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.Ex-d .Ex-btn:hover{
+  transform: translateY(-5px);
+}
+
+
+/*---Reviews---*/
+.advert{
+  display: inline;
+  font-size: 40px;
+  text-align: center;
+
+}
+.butn{
+  padding-top: 40px;
+  padding-right: 510px;
+  cursor: pointer;
+}
+.butn a{
+  padding-left: 100px;
+  padding-right: 100px;
+  
+}
+
+
+.footer {
+
+  width: 100%;
+  height: 10px;
+  background-color: #5E17EB; 
+  text-align: center;
+  padding-bottom: 100px;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+
+}
+
+#contactmessage {
+
+  width: 100%;
+  background-color: #5E17EB; 
+  padding-bottom: 15px;
+  padding-top: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 35px;
+
+}
+
+
+#email {
+
+  width: 100%;
+  background-color: #5E17EB;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  font-size: 20px;
+
+
+}
+
+#telephone{
+
+  width: 100%;
+  background-color: #5E17EB;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 70px;
+
+}
+
+/*---Footer---*/
+
+#copyright {
+
+  width: 100%;
+  background-color: #5E17EB;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  font-size: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+
+#heresbutton{
+
+  font-family: 'Kanit', sans-serif;
+
+}

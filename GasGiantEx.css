@@ -1,0 +1,262 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(https://cdn.mos.cms.futurecdn.net/oKX3xtKyb7ht4zW9w24gRG.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+#bigtext {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  font-size: 93px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 7%;
+}
+
+.logo{
+  width: 400px;
+  cursor: pointer;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nav-links li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.nav-links li a{
+  text-decoration: none;
+  color: white;
+}
+
+.Register-btn{
+background: white;
+color: #000;
+padding: 8px 20px;
+border-radius: 20px;
+text-decoration: none;
+font-size: 14px;
+}
+
+.container{
+  padding: 0 7%;
+  position: center;
+}
+
+.header h1{
+  font-size: 4vw;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.search-btn{
+background: #5E17EB;
+color: white;
+padding: 10px 50px;
+border-radius: 20px;
+text-decoration: none;
+font-size: 14px;
+display: inline-block;
+margin-left: 575px;
+margin-top: 20px;
+}
+
+/*--Excl--*/
+.sub-title{
+  margin: 50px 0 20px;
+  font-size: 2.2vw;
+  font-weight: 500;
+  color: #333;
+}
+.exclusives{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+}
+.exclusives div img{
+  width: 100%;
+  border-radius: 40px;
+  height: 95%;
+}
+.exclusives div{
+  position: relative;
+}
+.exclusives div span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.intromessage {
+
+  margin: 75px 100px;
+
+}
+
+#aboutsection {
+
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+#aboutparagraph {
+
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  margin: 0px 30px;
+  padding-top: 35px;
+  font-size: 17px;
+
+}
+
+
+#about{
+  padding: 80px 0;
+  color: #ababab;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1{
+  flex-basis: 35%;
+}
+.about-col-1 img{
+  width: 100%;
+  border-radius: 15px;
+}
+.about-col-2{
+  flex-basis: 60%;
+}
+
+.sub-title {
+
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 35px;
+
+}
+
+#jupiterdescrip{
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+
+}
+
+#makeitpurple {
+
+  color: #5E17EB;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#makeitbold {
+
+  color: black;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bolder;
+
+}
+
+#jupiterdescrip2 {
+
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  padding-top: 35px;
+
+}
+
+
+.footer {
+
+  width: 100%;
+  height: 10px;
+  background-color: #5E17EB; 
+  text-align: center;
+  padding-bottom: 100px;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+
+}
+
+#contactmessage {
+
+  width: 100%;
+  background-color: #5E17EB; 
+  padding-bottom: 15px;
+  padding-top: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+  font-size: 35px;
+
+}
+
+
+#email {
+
+  width: 100%;
+  background-color: #5E17EB;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  font-size: 20px;
+  
+
+}
+
+#telephone{
+
+  width: 100%;
+  background-color: #5E17EB;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-bottom: 70px;
+
+}
+
+
+#copyright {
+
+  width: 100%;
+  background-color: #5E17EB;
+  font-family: 'Kanit', sans-serif;
+  color: black;
+  font-size: 10px;
+  padding-bottom: 10px;
+
+}
+
+
+.gradienthere {
+
+  background-image: linear-gradient(to bottom right, #6097f0, silver);
+
+}
